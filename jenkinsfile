@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('git clone from repo') {
+            steps {
+                echo 'git clone '
+            }
+        }
+    }
+}
